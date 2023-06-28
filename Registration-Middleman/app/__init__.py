@@ -12,7 +12,7 @@ logger.add("mathtrix.log", enqueue=True)
 
 router = APIRouter()
 
-API_URL = os.getenv("API_URL")
+API_URL = "http://0.0.0.0:8000/api"
 API_KEY = os.getenv("API_KEY")
 
 
