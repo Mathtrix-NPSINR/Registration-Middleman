@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "registration-middleman"
+version = "0.1.0"
+description = "Connecting Google Forms Responses to the API Server"
+authors = ["Harikeshav R <r.harikeshav@gmail.com>"]
+license = "GNU General Public License v3.0"
+readme = "README.md"
+packages = [{include = "registration_middleman"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = {extras = ["all"], version = "^0.98.0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
