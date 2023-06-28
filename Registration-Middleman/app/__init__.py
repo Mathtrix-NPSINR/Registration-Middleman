@@ -121,6 +121,95 @@ async def forward(*, event: EventBase):
                 },
             )
 
+        if (
+            event.name_3 is not None
+            and event.email_3 is not None
+            and event.phone_number_3 is not None
+        ):
+            await client.post(
+                f"{API_URL}/user/",
+                params={"api-key": API_KEY},
+                json={
+                    "user_name": event.name_3,
+                    "user_email": event.email_3,
+                    "user_phone": event.phone_number_3,
+                    "user_school": event.school,
+                    "team_id": team_id,
+                },
+            )
+
+        if (
+            event.name_4 is not None
+            and event.email_4 is not None
+            and event.phone_number_4 is not None
+        ):
+            await client.post(
+                f"{API_URL}/user/",
+                params={"api-key": API_KEY},
+                json={
+                    "user_name": event.name_4,
+                    "user_email": event.email_4,
+                    "user_phone": event.phone_number_4,
+                    "user_school": event.school,
+                    "team_id": team_id,
+                },
+            )
+
+        if (
+            event.name_5 is not None
+            and event.email_5 is not None
+            and event.phone_number_5 is not None
+        ):
+            await client.post(
+                f"{API_URL}/user/",
+                params={"api-key": API_KEY},
+                json={
+                    "user_name": event.name_5,
+                    "user_email": event.email_5,
+                    "user_phone": event.phone_number_5,
+                    "user_school": event.school,
+                    "team_id": team_id,
+                },
+            )
+
+        if (
+            event.name_6 is not None
+            and event.email_6 is not None
+            and event.phone_number_6 is not None
+        ):
+            await client.post(
+                f"{API_URL}/user/",
+                params={"api-key": API_KEY},
+                json={
+                    "user_name": event.name_6,
+                    "user_email": event.email_6,
+                    "user_phone": event.phone_number_6,
+                    "user_school": event.school,
+                    "team_id": team_id,
+                },
+            )
+
+        if (
+            event.name_7 is not None
+            and event.email_7 is not None
+            and event.phone_number_7 is not None
+        ):
+            await client.post(
+                f"{API_URL}/user/",
+                params={"api-key": API_KEY},
+                json={
+                    "user_name": event.name_7,
+                    "user_email": event.email_7,
+                    "user_phone": event.phone_number_7,
+                    "user_school": event.school,
+                    "team_id": team_id,
+                },
+            )
+
+    logger.info(
+        f"{event.team_name} from {event.school} has successfully registered for the event {event_name}!"
+    )
+
 
 app = FastAPI(title="Registration MiddleMan")
 app.include_router(router)
