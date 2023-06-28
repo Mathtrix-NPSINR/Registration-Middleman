@@ -27,6 +27,16 @@ form_ids = {
     "Saturn": (8, "1-Wo5IzWj26KzyQeZIR5511qELXnVw5ObJMJt8JXC1DU"),
     "Sonneto": (9, "19AiL7fX8DQBR4NaHoHARo0k40xeWSPeRUq1__HIoYM0"),
     "Sum it Up!": (10, "1ym1ce1LbFMHfFTiweFJWHd6dzc4-NMCUj-XNQLxtqOA"),
+    "Breaking Barriers": (11, "1F3zPii3cI8_eJYC6-kkXmpQ4UPm2uv6cu9NAx7YbDRQ"),
+    "Cognitoria": (12, "1369PReP12e8nXqP-VeOqs6V3BrwUTE1UfDoVU4UdTc0"),
+    "Forum Infinitum": (13, "1tdmkxT4eqTqzMX03uvDCzbYP0iWbbN6oH-kn2ZyYQTM"),
+    "Hacksquads": (14, "1gZTAg5N7GO1Ia6BAMPkyD9Kuxz59nQWKrF5Jf4WIiTA"),
+    "Mathletics": (15, "1nAqaFo23NdtRS_HOWH0PVslkMo74JzU7dR3YkhgdvYg"),
+    "Mathopoly": (16, "1mX-crEIcDtGcwnzmq-j1xAUVCysYl5s-nCon8Nuoirg"),
+    "Mystifiezzera": (17, "1_0sFSIU1QEjHuKgtPGWBKn0wCS787Qq4IdsuyaHL4DI"),
+    "Operation Breakout": (18, "1bQhHMnbJ3OjH2Rv_5GyWwmFYKAhud4Hz73ut0GNdZ5Y"),
+    "Picstraction": (19, "1k2BH9lOvJwhFL63M-tLQDxDi--FkDAh898sdjhBKhco"),
+    "Rhythmatics": (20, "1NiQ8pAxk-oFEp3otKuTT8oOj3IDrUcWeqTj7RrnL70k")
 }
 
 
