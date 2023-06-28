@@ -11,6 +11,7 @@ packages = [{include = "registration_middleman"}]
 python = "^3.11"
 fastapi = {extras = ["all"], version = "^0.98.0"}
 loguru = "^0.7.0"
+httpx = "^0.24.1"
 
 
 [build-system]
