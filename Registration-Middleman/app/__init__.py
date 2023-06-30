@@ -36,7 +36,7 @@ form_ids = {
     "Mystifiezzera": (17, "1_0sFSIU1QEjHuKgtPGWBKn0wCS787Qq4IdsuyaHL4DI"),
     "Operation Breakout": (18, "1bQhHMnbJ3OjH2Rv_5GyWwmFYKAhud4Hz73ut0GNdZ5Y"),
     "Picstraction": (19, "1k2BH9lOvJwhFL63M-tLQDxDi--FkDAh898sdjhBKhco"),
-    "Rhythmatics": (20, "1NiQ8pAxk-oFEp3otKuTT8oOj3IDrUcWeqTj7RrnL70k")
+    "Rhythmatics": (20, "1NiQ8pAxk-oFEp3otKuTT8oOj3IDrUcWeqTj7RrnL70k"),
 }
 
 
