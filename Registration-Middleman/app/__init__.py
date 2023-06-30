@@ -7,7 +7,6 @@ from loguru import logger
 from pydantic import BaseModel
 
 load_dotenv()
-logger.remove()
 logger.add("mathtrix.log", enqueue=True)
 
 router = APIRouter()
