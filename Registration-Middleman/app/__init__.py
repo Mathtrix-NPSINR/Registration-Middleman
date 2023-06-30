@@ -69,10 +69,6 @@ class EventBase(BaseModel):
     email_6: str | None = None
     phone_number_6: str | None = None
 
-    name_7: str | None = None
-    email_7: str | None = None
-    phone_number_7: str | None = None
-
 
 @router.post("/")
 async def forward(*, event: EventBase):
@@ -194,23 +190,6 @@ async def forward(*, event: EventBase):
                     "user_name": event.name_6,
                     "user_email": event.email_6,
                     "user_phone": event.phone_number_6,
-                    "user_school": event.school,
-                    "team_id": team_id,
-                },
-            )
-
-        if (
-            event.name_7 is not None
-            and event.email_7 is not None
-            and event.phone_number_7 is not None
-        ):
-            await client.post(
-                f"{API_URL}/user/",
-                params={"api-key": API_KEY},
-                json={
-                    "user_name": event.name_7,
-                    "user_email": event.email_7,
-                    "user_phone": event.phone_number_7,
                     "user_school": event.school,
                     "team_id": team_id,
                 },
